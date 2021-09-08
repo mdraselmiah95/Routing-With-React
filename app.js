@@ -1,3 +1,4 @@
+//fancy slider
 const imagesArea = document.querySelector(".images");
 const gallery = document.querySelector(".gallery");
 const galleryHeader = document.querySelector(".gallery-header");
