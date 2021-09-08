@@ -36,6 +36,7 @@ const getImages = (query) => {
     .then((data) => showImages(data.hits))
     .catch((err) => console.log(err));
 };
+
 //slider
 let slideIndex = 0;
 const selectItem = (event, img) => {
@@ -56,6 +57,7 @@ const createSlider = () => {
     alert("Select at least 2 image.");
     return;
   }
+
   // crate slider previous next area
   sliderContainer.innerHTML = "";
   const prevNext = document.createElement("div");
