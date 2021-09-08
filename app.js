@@ -36,7 +36,7 @@ const getImages = (query) => {
     .then((data) => showImages(data.hits))
     .catch((err) => console.log(err));
 };
-
+//slider
 let slideIndex = 0;
 const selectItem = (event, img) => {
   let element = event.target;
